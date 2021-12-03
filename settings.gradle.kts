@@ -9,4 +9,8 @@
  */
 
 rootProject.name = "adventofcode"
-include("day01", "day02")
+include(
+    "day01",
+    "day02",
+    "day03",
+)
