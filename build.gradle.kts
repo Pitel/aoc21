@@ -15,14 +15,6 @@ allprojects {
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC")
     }
 
-    testing {
-        suites {
-            val test by getting(JvmTestSuite::class) {
-                useKotlinTest()
-            }
-        }
-    }
-
     application {
         mainClass.set("com.24i.adventofcode.AppKt")
     }
